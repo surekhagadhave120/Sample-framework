@@ -1,0 +1,30 @@
+# Pre-requisites
+
+
+# File-->>settings--->>Python Interpreter--->>add(+ button)=1.pytest 2.selenium 3.pytest-html 4.allure-pytest 5.xlrd 6.openpyxl
+
+
+
+
+
+# Sample commands----
+
+
+# 1.To execute individual test script---> pytest test_Scripts/test_sample.py
+
+
+
+# 2.To execute whole test suite--> pytest
+
+
+# 3.To generate allure report-->pytest test_Scripts/test_sample.py --alluredir=AllureReport/testsample.py
+
+
+# 4.To generate html report-->pytest test_Scripts/test_sample.py --html=Report/'testsample.html'
+
+
+# 5.To Display allure report-->allure serve AllureReport/testsample.py
+
+
+
+
